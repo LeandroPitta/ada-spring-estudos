@@ -8,6 +8,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 @RequestMapping("/produtos")
 public class ProdutosController {
@@ -19,15 +22,37 @@ public class ProdutosController {
     public ResponseEntity<ProdutoResponseDto> inserir(@RequestBody ProdutoRequestDto produtoRequestDto) {
 
         ProdutoResponseDto produtoResponseDto = produtoService.inserir(produtoRequestDto);
-
         return ResponseEntity.status(HttpStatus.CREATED).body(produtoResponseDto);
 
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<ProdutoResponseDto> atualizar(@PathVariable Long id, @RequestBody ProdutoRequestDto produto) {
-        System.out.println("Atualizando produto: ");
+
+        ProdutoResponseDto produtoResponseDto = produtoService.atualizar(id, produto);
+        return ResponseEntity.ok(produtoResponseDto);
+
+    }
+
+    @DeleteMapping("/{id}")
+    public void excluir(@PathVariable Long id) {
+
+        produtoService.excluir(id);
+
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ProdutoResponseDto> getPorId(@PathVariable Long id) {
+
         return ResponseEntity.ok(new ProdutoResponseDto());
+
+    }
+
+    @GetMapping
+    public ResponseEntity<List<ProdutoResponseDto>> listarTodos() {
+
+        return ResponseEntity.ok(new ArrayList<>());
+
     }
 
 }

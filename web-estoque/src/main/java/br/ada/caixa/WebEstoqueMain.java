@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WebEstoqueMain {
     
     public static void main(String[] args) {
+
         SpringApplication.run(WebEstoqueMain.class, args);
+
     }
     
 }

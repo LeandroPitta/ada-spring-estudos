@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ded521-acf2-43e1-8606-e6088809f8c6" name="Changes" comment="Inicio estudos spring." />
+    <list default="true" id="b2ded521-acf2-43e1-8606-e6088809f8c6" name="Changes" comment="Inicio estudos spring.">
+      <change beforePath="$PROJECT_DIR$/../web-estoque/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-estoque/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-estoque/src/main/java/br/ada/caixa/WebEstoqueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-estoque/src/main/java/br/ada/caixa/WebEstoqueMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-estoque/src/main/java/br/ada/caixa/controller/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-estoque/src/main/java/br/ada/caixa/controller/ProdutosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-estoque/src/main/java/br/ada/caixa/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-estoque/src/main/java/br/ada/caixa/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +33,12 @@
     &quot;assignee&quot;: &quot;LeandroPitta&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LeandroPitta/ada-spring-aulas.git&quot;,
-    &quot;accountId&quot;: &quot;e482d955-43a4-45d5-bc66-c3dd3d33b99d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LeandroPitta/ada-spring-estudos.git",
+    "accountId": "e482d955-43a4-45d5-bc66-c3dd3d33b99d"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -59,7 +65,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Dev/Java/AdaTech/modulo4/web-pedido-compras/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
   <component name="RecentsManager">
